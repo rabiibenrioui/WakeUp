@@ -15,6 +15,8 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./android/app/google-services.json",
+      "package":"com.anonymous.WakeUp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -26,7 +28,13 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "@react-native-community/datetimepicker"
-    ]
+      "@react-native-community/datetimepicker",
+      "@react-native-firebase/app"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4dee058a-c7d5-4172-9d66-9e941acca7b6"
+      }
+    }
   }
 }

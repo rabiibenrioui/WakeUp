@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">=18.0.6",
+    "version": ">= 18.0.6",
     "appVersionSource": "remote"
   },
   "build": {
@@ -9,19 +9,10 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      },
-      "hooks": {
-        "pre-install": "./eas-build-pre-install.sh"
-      }
+      "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "hooks": {
-        "pre-install": "./eas-build-pre-install.sh"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
