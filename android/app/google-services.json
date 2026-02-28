@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349198897229",
+    "project_id": "wake-up-apk",
+    "storage_bucket": "wake-up-apk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349198897229:android:834adc49d71cf4ceda0c04",
+        "android_client_info": {
+          "package_name": "com.anonymous.WakeUp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwV9Z7T0l_O-8zurS6PZHfz7julzExC24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
